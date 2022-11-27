@@ -1,0 +1,128 @@
+{
+  "id": "f7ce7122-1c92-4a03-a15c-ea85281701d4",
+  "version": "2.0",
+  "name": "DevOps FInal Project Automation",
+  "url": "http://localhost:8081",
+  "tests": [{
+    "id": "1823a675-dba6-4f28-8f91-c9a759d53f13",
+    "name": "Automation Test",
+    "commands": [{
+      "id": "4f50c3e4-699d-40a5-9db8-9916ab44d9c0",
+      "comment": "",
+      "command": "open",
+      "target": "/OfekAvigdor-DorelleAfargan-EyalRafian/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bd68a15-148f-4d5c-826c-39232210f761",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "740x912",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0abdbec-8c7d-450b-a6e2-6404b8cc63eb",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=DevOps Hit 2022 Semster A Final project",
+      "targets": [
+        ["linkText=DevOps Hit 2022 Semster A Final project", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'DevOps Hit 2022 Semster A Final project')]", "xpath:link"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'DevOps Hit 2022 Semster A Final project')]", "xpath:innerText"]
+      ],
+      "value": "DevOps Hit 2022 Semster A Final project"
+    }, {
+      "id": "e29ee4f0-121d-4500-9a6d-dc85b195dd0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20ccc4d5-4416-485f-9dae-6f1a051b6674",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87bf5208-0a07-4303-a4ab-575f9f39739b",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Dorelle"
+    }, {
+      "id": "8dfb3a34-f8b9-4adf-9de7-4f1805844f02",
+      "comment": "",
+      "command": "type",
+      "target": "name=idnumber",
+      "targets": [
+        ["name=idnumber", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='idnumber']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "204005235"
+    }, {
+      "id": "7110d7d4-197a-4711-989c-941705b6c88d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03eacb06-e8d1-4a5c-aa2c-27c1d58aea0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e57423a-1c3e-4732-8f72-99f887fcd070",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Here Is your Name and ID number:",
+      "targets": [
+        ["linkText=Here Is your Name and ID number:", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Here Is your Name and ID number:')]", "xpath:link"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Here Is your Name and ID number:')]", "xpath:innerText"]
+      ],
+      "value": "Here Is your Name and ID number:"
+    }]
+  }],
+  "suites": [{
+    "id": "2fd089b1-224d-4474-9029-531f0c5ae61e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1823a675-dba6-4f28-8f91-c9a759d53f13"]
+  }],
+  "urls": ["http://localhost:8081/"],
+  "plugins": []
+}

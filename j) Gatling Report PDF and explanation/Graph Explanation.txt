@@ -1,0 +1,42 @@
+DevOps Final Project HIT A22 - Gatling Report Explanation
+Written By : Dorelle Afargan - Ofek Avigdor - Eyal Rafian
+
+
+**The Global Information**
+----------------------------------------------------------------------------------------------------------------
+This graphs at the start of the the report,																	   |
+shows the reponse time and number of requests in the 1 minute load test that we have preformed.				   |
+We can see that all the requests from the simulation were serviced(OK) and preformed in a good response time,  |
+all under 800ms reponse time.																				   |
+----------------------------------------------------------------------------------------------------------------
+
+**Active Users along the Simulation**
+----------------------------------------------------------------------------------------------------------------
+This graph shows, the number of users during the simulation.												   |
+We used a rampUsersPerSec function in the simulation, from 45 users at once to 50 in a duration of 1 minute.   |
+----------------------------------------------------------------------------------------------------------------
+
+**Response time distribution**
+----------------------------------------------------------------------------------------------------------------
+This graph shows, the distribution of the reponse time.														   |
+We can see that the precentage of requests that were served in a 2ms reponse time was 100%					   |
+that's because the app is not complicated at all, and the requests were not demanding.						   |
+----------------------------------------------------------------------------------------------------------------
+
+**Response Time Precntiles over Time**
+----------------------------------------------------------------------------------------------------------------
+At the start of the simulation the reponse time was a bit high than the rest of the duration				   |
+of the simulation, that's because the app was logged by 45 users at once, and then ramped up				   |
+to 50 through the simulation, so the response time went down.												   |
+----------------------------------------------------------------------------------------------------------------
+
+**Number of requests per second**
+----------------------------------------------------------------------------------------------------------------
+This graph shows the number of requests at given time through the duration									   |
+of the simulation, and how many users were Active.															   |
+----------------------------------------------------------------------------------------------------------------
+
+**Number of responses per second**
+----------------------------------------------------------------------------------------------------------------
+This graph shows the reposne of the requests and the active users.											   |
+----------------------------------------------------------------------------------------------------------------
